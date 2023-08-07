@@ -28,6 +28,11 @@
     margin-left: auto; /* Push datetime to the right */
     margin-right: 3vw;
   }
-
+  #next-update {
+    font-family: "Poppins";
+  }
+body {
+    overflow:hidden
+}
   
   
