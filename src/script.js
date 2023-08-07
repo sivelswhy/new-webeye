@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
 
 var planeIcon = L.divIcon({
   className: 'plane-icon',
-  html: '<img src="/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32">',
+  html: '<img src="https://raw.githubusercontent.com/sivelswhy/new-webeye/main/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32">',
   iconSize: [32, 32],
   iconAnchor: [16, 16],
 });
@@ -73,7 +73,7 @@ function updateMarkers() {
                 var line = L.polyline([previousPosition, newPosition], { color: 'blue' }).addTo(map);
                 marker.setIcon(L.divIcon({
                   className: 'plane-icon',
-                  html: `<img src="/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32" style="transform: rotate(${rotationAngle}deg);">`,
+                  html: `<img src="https://raw.githubusercontent.com/sivelswhy/new-webeye/main/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32" style="transform: rotate(${rotationAngle}deg);">`,
                   iconSize: [32, 32],
                   iconAnchor: [16, 16],
                 }));
@@ -86,7 +86,7 @@ function updateMarkers() {
             var marker = L.marker([lat, lon], {
               icon: L.divIcon({
                 className: 'plane-icon',
-                html: `<img src="/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32">`,
+                html: `<img src="https://raw.githubusercontent.com/sivelswhy/new-webeye/main/icons/basic_plane.svg" alt="Plane Icon" width="32" height="32">`,
                 iconSize: [32, 32],
                 iconAnchor: [16, 16],
               })
