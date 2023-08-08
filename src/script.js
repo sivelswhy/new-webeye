@@ -134,7 +134,7 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 // var planeIcon = L.icon({
-//   iconUrl: 'icons/basic_plane.svg',
+//   iconUrl: 'public/basic_plane.svg',
 //   iconSize: [32, 32],
 // });
 
@@ -168,7 +168,7 @@ function updateMarkers() {
           // Create new marker
           var marker = L.marker([lat, lon], {
             icon: L.icon({
-              iconUrl: `/icons/plane_icons/${getAirplane(
+              iconUrl: `/public/plane_icons/${getAirplane(
                 pilot.flightPlan.aircraftId
               )}.png`,
               iconSize: [32, 32],
