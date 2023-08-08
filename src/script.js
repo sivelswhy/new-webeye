@@ -130,7 +130,7 @@ function countCommonCharacters(str1, str2) {
 var map = L.map("map").setView([51.505, -0.09], 3);
 
 L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png", {
-  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> | <a href="https://www.openstreetmap.org/copyright">OpenStreetMap Contributors</a>',
 }).addTo(map);
 
 // var planeIcon = L.icon({
