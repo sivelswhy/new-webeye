@@ -1,4 +1,4 @@
 {
     "cleanUrls": true,
-    "redirects": [{ "source": "/me", "destination": "/profile.html" }]
+    "redirects": [{ "source": "/", "destination": "/src/index.html" }]
 }
