@@ -244,7 +244,7 @@ function updateMarkers() {
           var marker = L.marker([lat, lon],{
             rotationAngle: headingPlane,
             icon: L.icon({
-              iconUrl: `../public/plane_icons/${getAirplane(
+              iconUrl: `/public/plane_icons/${getAirplane(
                 pilot.flightPlan.aircraftId
               )}.png`,
               iconSize: [32, 32],
@@ -262,7 +262,6 @@ function updateMarkers() {
                 pilot.flightPlan.aircraftId
               }, ${getAirplane(pilot.flightPlan.aircraftId)}`
             )
-            .openPopup();
 
           // Store marker by callsign
           markers[callsign] = marker;
