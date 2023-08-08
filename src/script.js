@@ -168,7 +168,7 @@ function updateMarkers() {
           // Create new marker
           var marker = L.marker([lat, lon], {
             icon: L.icon({
-              iconUrl: `/public/plane_icons/${getAirplane(
+              iconUrl: `../public/plane_icons/${getAirplane(
                 pilot.flightPlan.aircraftId
               )}.png`,
               iconSize: [32, 32],
