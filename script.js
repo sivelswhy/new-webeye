@@ -282,3 +282,24 @@ function updateMarkers() {
 
 updateMarkers(); // Initial call
 setInterval(updateMarkers, 30000);
+
+
+function updateDateTime() {
+  var now = new Date();
+  var options = {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    timeZone: "UTC",
+  };
+  document.getElementById("datetime").textContent = `${now.toLocaleString(
+    "en-US",
+    options
+  )} UTC (Zulu)`;
+}
+
+updateDateTime(); // Initial call
+setInterval(updateDateTime, 1000);
