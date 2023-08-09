@@ -269,7 +269,7 @@ function updateMarkers() {
       }
       // data.clients.pilots.forEach((pilot) => {
 
-      // });
+      // });  
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
