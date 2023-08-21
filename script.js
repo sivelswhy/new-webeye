@@ -173,6 +173,7 @@ function getAirplane(planeCode) {
     "T154",
     "TBM9",
     "VC10",
+    "GLF5",
     "VISC"
 ];
 
